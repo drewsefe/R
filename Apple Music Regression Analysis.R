@@ -1,5 +1,5 @@
 # connnecting to SQL Server
-con <- odbcConnect('portfolio', uid = 'sa', pwd = 'Moon12281997_')
+con <- odbcConnect('portfolio', uid = '******', pwd = '********')
 music <- sqlQuery(con, 'select * from music')
 
 # statistical models
